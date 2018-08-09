@@ -1,6 +1,7 @@
-
+<p align="center">
 <img src="./iot_overview_images/media/image1.png" alt="drawing" width="500px"/>
 <img src="./iot_overview_images/media/image2.png" alt="drawing" width="500px"/>
+</p>
 
 SPYRUS Product Design Information License Agreement
 ===================================================
