@@ -1,4 +1,4 @@
-#Welcome to Rosetta for Azure IoT SDK 
+# Welcome to Rosetta for Azure IoT SDK 
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
