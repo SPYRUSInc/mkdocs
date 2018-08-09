@@ -1,10 +1,9 @@
 <p align="center">
-<img src="./iot_overview_images/media/image1.png" alt="drawing" width="500px"/>
-<img src="./iot_overview_images/media/image2.png" alt="drawing" width="500px"/>
+<img src="./iot_overview_images/media/image1.png" alt="drawing" width="400px"/>
+<img src="./iot_overview_images/media/image2.png" alt="drawing" width="400px"/>
 </p>
 
-SPYRUS Product Design Information License Agreement
-===================================================
+# SPYRUS Product Design Information License Agreement
 
 PLEASE READ THIS! This is a legal agreement between SPYRUS, Inc.
 ("SPYRUS") and the recipient of this document, whether an individual or
@@ -65,34 +64,8 @@ DESTROY THIS DOCUMENT, AND DO NOT PROVIDE ANY FEEDBACK.
     and SPYRUS concerning this document; it may be changed only by a
     written document signed by both You and SPYRUS.
 
-**\
-**
 
-Table of Contents
-=================
-
-[SPYRUS Product Design Information License Agreement
-ii](#spyrus-product-design-information-license-agreement)
-
-[Table of Contents iii](#_Toc519176214)
-
-[Introduction 1](#introduction)
-
-[Shared Access Signature (SAS) Token with SPYRUS HSM HMAC Key
-2](#shared-access-signature-sas-token-with-spyrus-hsm-hmac-key)
-
-[X.509 Authentication Over TLS/SSL Using SPYRUS HSM Private Key &
-Certificate
-2](#x.509-authentication-over-tlsssl-using-spyrus-hsm-private-key-certificate)
-
-[IoT Device Provisioning Using Device Private Key Stored in the SPYRUS
-HSM
-3](#iot-device-provisioning-using-device-private-key-stored-in-the-spyrus-hsm)
-
-[More Information 4](#more-information)
-
-Introduction
-============
+# Introduction
 
 This document provides a very brief overview of how SPYRUS family of
 Hardware Security Modules (HSMs) powered by Rosetta® can be integrated
@@ -125,8 +98,7 @@ These integrations are implemented using PKCS \#11 so that the whole
 family of FIPS 140-2 validated SPYRUS HSMs Rosetta devices are available
 as options for integration with the Azure IOT SDK.
 
-Shared Access Signature (SAS) Token with SPYRUS HSM HMAC Key
-============================================================
+# Shared Access Signature (SAS) Token with SPYRUS HSM HMAC Key
 
 The Azure IoT SDK uses a software based Base 64 encoded HMAC key to
 generate a SAS token. The SPYRUS IoT SDK enhancements accomplish this
@@ -165,8 +137,7 @@ Generation: -
 This makes authentication of your devices with Azure IoT using SAS
 Tokens a simple process while vastly improving security.
 
-X.509 Authentication Over TLS/SSL Using SPYRUS HSM Private Key & Certificate
-============================================================================
+# X.509 Authentication Over TLS/SSL Using SPYRUS HSM Private Key & Certificate
 
 The Azure IoT SDK when doing X.509 Authentication is using PEM encoded
 strings for the private key and certificate which are stored directly in
@@ -205,8 +176,7 @@ credentials:
 This makes authentication of your devices with Azure IoT using X.509
 Authentication a simple process while vastly improving security.
 
-IoT Device Provisioning Using Device Private Key Stored in the SPYRUS HSM
-=========================================================================
+# IoT Device Provisioning Using Device Private Key Stored in the SPYRUS HSM
 
 The Azure IoT SDK when doing Device Provisioning using X.509
 Certificates is using PEM encoded strings for the private key and
@@ -248,8 +218,7 @@ simple 5 step process:
 This makes provisioning of your SPYRUS HSM devices with the Device
 Provisioning Service easy, while also vastly improving security.
 
-More Information
-================
+# More Information
 
 For a more detailed explanation of any of these improvements to the
 Azure IoT SDK please consult the document "Integration of Rosetta into
