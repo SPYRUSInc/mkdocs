@@ -1,7 +1,7 @@
 # IoT SDK's Overview
 
-![image alt <>](iot_overview_images/media/image1.png =100)
-![image alt <>](iot_overview_images/media/image2.png =100)
+![image alt <>](iot_overview_images/media/image1.png)
+![image alt <>](iot_overview_images/media/image2.png)
 
 ## SPYRUS Product Design Information License Agreement
 
