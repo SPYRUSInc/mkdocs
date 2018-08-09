@@ -1,4 +1,6 @@
 site_name: SPYRUS Document Server
+repo_name: 'spyrusinc/mkdocs'
+repo_url: 'https://github.com/spyrusinc/mkdocs'
 #theme: windmill
 #theme: readthedocs
 #theme: rtd-dropdown
