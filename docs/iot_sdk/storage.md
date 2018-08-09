@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to Storage SDK
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
