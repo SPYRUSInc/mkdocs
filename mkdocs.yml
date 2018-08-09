@@ -1,0 +1,33 @@
+site_name: SPYRUS Document Server
+#theme: windmill
+#theme: readthedocs
+#theme: rtd-dropdown
+theme: 
+    name: material
+    logo:
+        icon: 'book'
+        favicon: 'images/favicon.ico'
+    feature:
+        tabs: false
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/spyrusinc'
+    - type: 'twitter'
+      link: 'https://twitter.com/spyrus_inc'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/company/spyrus'
+
+markdown_extensions:
+    - markdown_include.include:
+        base_path: docs
+pages:
+- Home: index.md
+- IoT SDK's: 
+    - Azure IoT SDK: iot_sdk/azure.md
+    - PKI SDK: iot_sdk/pki.md
+    - Storage SDK: iot_sdk/storage.md
+    - Rosetta Micro SDK: iot_sdk/micro.md
+- Include Test: includetest/main.md
+- About: about/about.md
