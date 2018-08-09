@@ -1,8 +1,6 @@
-![](./iot_overview_images/media/image1.png){width="7.394444444444445in"
-height="3.339583333333333in"}
 
-![](./iot_overview_images/media/image2.png){width="3.533333333333333in"
-height="3.3333333333333335in"}
+<img src="./iot_overview_images/media/image1.png" alt="drawing" width="500px"/>
+<img src="./iot_overview_images/media/image2.png" alt="drawing" width="500px"/>
 
 SPYRUS Product Design Information License Agreement
 ===================================================
