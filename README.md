@@ -1,4 +1,4 @@
-#SPYRUS Document Server
+# SPYRUS Document Server
 
 ## Markdown content for SPYRUS Documentation Server
 
